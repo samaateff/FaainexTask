@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "FaainexTask.Client",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-yASp4boV178JUZ2KJ+VJ+2JncM1WTSA8ueb1WnGa0vk=",
+    "hash": "sha256-LUTpD1pmMxOHc0ccSCkzIAb69oztm/LIRqYV1HwDkNQ=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.69poregybn.js"
@@ -1260,16 +1260,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "FaainexTask.Client.wasm",
-        "name": "FaainexTask.Client.rjn7frnyxs.wasm",
-        "integrity": "sha256-CeLaAufbmdvIOwLtSw8/oSe5u46g4TeCZuKFJ/IHhZ0=",
+        "name": "FaainexTask.Client.ca1rv6k69l.wasm",
+        "integrity": "sha256-vKkyC/htIN/P5ZAc+mUwHbcecUT0XEK/3a5MsTR1+60=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "FaainexTask.Client.pdb",
-        "name": "FaainexTask.Client.15mh384iil.pdb",
-        "integrity": "sha256-q7J+COMjoBu4+Gl0gN8Cy01MKofp28WugArsh+DhNSo=",
+        "name": "FaainexTask.Client.qxt2p8016e.pdb",
+        "integrity": "sha256-8uL7+WQp+W3a5LuKTzbqRuiyJgW1rc68xzilVnMdEGs=",
         "cache": "force-cache"
       }
     ],

@@ -112,3 +112,4 @@ D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\FaainexTask.pdb
 D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\FaainexTask.genruntimeconfig.cache
 D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\ref\FaainexTask.dll
 D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\compressed\6kgse98y2a-{0}-q6vucnctue-q6vucnctue.gz
+D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\FaainexTask.sourcelink.json
