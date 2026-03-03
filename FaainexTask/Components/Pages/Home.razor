@@ -1,0 +1,295 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+@using System.Threading
+@using System.Net.Http.Json
+@attribute [StreamRendering]
+
+
+<style type="text/css">
+    .mud-table-head .header-centered th {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+   .mud-table-foot .bold-text .mud-table-cell {
+       font-weight: 500;
+   }
+</style>
+
+
+<PageTitle>Home</PageTitle>
+
+<EditForm Model="@model" OnValidSubmit="OnValidSubmit">
+<DataAnnotationsValidator/>
+<MudGrid>
+    <MudItem xs="12" >
+        <MudCard>
+            <MudCardContent>
+                <MudGrid>
+                      <MudItem xs="12" sm="6" md="3">
+        <MudAutocomplete T="string" Label="US States" @bind-Value="value2" SearchFunc="@Search2"
+                         ResetValueOnEmptyText="@resetValueOnEmptyText"
+                         CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab"
+                         AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" />
+    </MudItem>
+     <MudItem xs="12" sm="6" md="3">
+<MudDatePicker Label="Date Format" @bind-Date="_date" DateFormat="dd.MM.yyyy" />
+</MudItem>
+    <MudItem xs="12" sm="6" md="3">
+        <MudAutocomplete T="string" Label="US States" @bind-Value="value1" SearchFunc="@Search1"
+                         ResetValueOnEmptyText="@resetValueOnEmptyText"
+                         CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab" />
+    </MudItem>
+    <MudItem xs="12" sm="6" md="3">
+ <MudAutocomplete T="string" Label="US States" @bind-Value="value1" SearchFunc="@Search1"
+                         ResetValueOnEmptyText="@resetValueOnEmptyText"
+                         CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab" />
+</MudItem>
+                      <MudItem xs="12" sm="6" md="3">
+      <MudTextField T="string" Label="Username" Required="true" RequiredError="User name is required!" />
+    </MudItem>
+     <MudItem xs="12" sm="6" md="3">
+ <MudTextField T="string" Label="Username" Required="true" RequiredError="User name is required!" />
+</MudItem>
+    <MudItem xs="12" sm="6" md="3">
+       <MudTextField T="string" Label="Username" Required="true" RequiredError="User name is required!" />
+    </MudItem>
+    <MudItem xs="12" sm="6" md="3">
+ <MudAutocomplete T="string" Label="US States" @bind-Value="value1" SearchFunc="@Search1"
+                         ResetValueOnEmptyText="@resetValueOnEmptyText"
+                         CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab" />
+</MudItem>
+
+                    <MudItem xs="12" sm="6" md="3">
+      <MudTextField T="string" Label="Username" Required="true" RequiredError="User name is required!" />
+    </MudItem>
+     <MudItem xs="12" sm="6" md="3">
+ <MudTextField T="string" Label="Username" Required="true" RequiredError="User name is required!" />
+</MudItem>
+    <MudItem xs="12" sm="6" md="3">
+        <MudDatePicker Label="Date Format" @bind-Date="_date" DateFormat="dd.MM.yyyy" />
+    </MudItem>
+    <MudItem xs="12" sm="6" md="3">
+ <MudTextField T="string" Label="Username" Required="true" RequiredError="User name is required!" />
+</MudItem>
+  <MudItem xs="12" sm="6" md="3">
+ <MudAutocomplete T="string" Label="US States" @bind-Value="value1" SearchFunc="@Search1"
+                         ResetValueOnEmptyText="@resetValueOnEmptyText"
+                         CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab" />
+</MudItem>
+  <MudItem xs="12" sm="6" md="3">
+    <MudGrid>
+        <MudItem md="6">
+ <MudAutocomplete T="string" Label="US States" @bind-Value="value1" SearchFunc="@Search1"
+                         ResetValueOnEmptyText="@resetValueOnEmptyText"
+                         CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab" />
+        </MudItem>
+        <MudItem md="6">
+            <MudTextField T="string" ReadOnly  Disabled="true" Variant="Variant.Outlined" Placeholder="0"/>
+        </MudItem>
+    </MudGrid>
+</MudItem>
+    <MudItem xs="12" sm="6" md="3">
+         <MudButton FullWidth ButtonType="ButtonType.Button" Variant="Variant.Filled" Color="Color.Primary" 
+             Class="mt-3 mb-3 ">Validate</MudButton>
+</MudItem>
+  <MudItem xs="12" sm="6" md="3">
+ <MudAutocomplete T="string" Label="US States" @bind-Value="value1" SearchFunc="@Search1"
+                         ResetValueOnEmptyText="@resetValueOnEmptyText"
+                         CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab" 
+                         Variant="Variant.Filled" Color="Color.Primary"
+                         />
+</MudItem>
+</MudGrid>
+<hr />
+                <MudGrid >
+                    <MudItem md="12" Class="d-flex justify-content-center gap-2">
+                    <MudItem md="3">
+                      <MudTextField T="string" ReadOnly  Disabled="true" Variant="Variant.Filled" Placeholder="0"/>
+                    </MudItem>
+                    <MudItem md="3">
+                      <MudTextField T="string" ReadOnly  Disabled="true" Variant="Variant.Filled" Placeholder="0"/>
+                    </MudItem>
+                   
+                    </MudItem>
+                     <MudItem md="12">
+                        <div class="d-flex justify-content-center gap-2">
+<MudCheckBox @bind-Value="Basic_CheckBox1" Color="Color.Primary"  Label="عرض الخصم"></MudCheckBox>
+<MudCheckBox @bind-Value="Basic_CheckBox2" Color="Color.Primary"  Label="عرض الضريبة"></MudCheckBox>
+                        </div>
+                    </MudItem>
+                </MudGrid>
+             
+@* table *@
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th>م</th>
+                <th aria-label="Temperature in Celsius">اسم الصنف</th>
+                <th aria-label="Temperature in Fahrenheit">المستودع</th>
+                <th>الوحدة</th>
+                 <th>البيان</th>
+                <th aria-label="Temperature in Celsius">الكمية</th>
+                <th aria-label="Temperature in Fahrenheit">كمية البونص</th>
+                <th>سعر الوحدة</th>
+                 <th>الخصم</th>
+                <th aria-label="Temperature in Celsius">الضريبة</th>
+                <th aria-label="Temperature in Fahrenheit">السعر الصافي</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>1</td>
+                    <td>صنف 25</td>
+                    <td>المستودع الرئيسي</td>
+                    <td>وحدة معدلة 710</td>
+                    <td>@forecast.Summary</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>100</td>
+                    <td>0</td>
+                    <td>15.00</td>
+                    <td>115.00</td>
+                    
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+
+
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="mr-auto">Register</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+</MudGrid>
+</EditForm>
+
+
+@code {
+    RegisterAccountForm model = new RegisterAccountForm();
+    bool success;
+
+    public class RegisterAccountForm
+    {
+        [Required]
+        [StringLength(8, ErrorMessage = "Name length can't be more than 8.")]
+        public string Username { get; set; }
+
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Required]
+        [StringLength(30, ErrorMessage = "Password must be at least 8 characters long.", MinimumLength = 8)]
+        public string Password { get; set; }
+
+        [Required]
+        [Compare(nameof(Password))]
+        public string Password2 { get; set; }
+
+    }
+
+    private void OnValidSubmit(EditContext context)
+    {
+        success = true;
+        StateHasChanged();
+    }
+
+    private bool resetValueOnEmptyText;
+    private bool coerceText;
+    private bool coerceValue;
+    private bool selectedOnTab;
+    private string value1, value2;
+    private string[] states =
+    {
+        "Alabama", "Alaska", "American Samoa", "Arizona",
+        "Arkansas", "California", "Colorado", "Connecticut",
+        "Delaware", "District of Columbia", "Federated States of Micronesia",
+        "Florida", "Georgia", "Guam", "Hawaii", "Idaho",
+        "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
+        "Louisiana", "Maine", "Marshall Islands", "Maryland",
+        "Massachusetts", "Michigan", "Minnesota", "Mississippi",
+        "Missouri", "Montana", "Nebraska", "Nevada",
+        "New Hampshire", "New Jersey", "New Mexico", "New York",
+        "North Carolina", "North Dakota", "Northern Mariana Islands", "Ohio",
+        "Oklahoma", "Oregon", "Palau", "Pennsylvania", "Puerto Rico",
+        "Rhode Island", "South Carolina", "South Dakota", "Tennessee",
+        "Texas", "Utah", "Vermont", "Virgin Island", "Virginia",
+        "Washington", "West Virginia", "Wisconsin", "Wyoming",
+    };
+
+    private async Task<IEnumerable<string>> Search1(string value, CancellationToken token)
+    {
+        // In real life use an asynchronous function for fetching data from an api.
+        await Task.Delay(5, token);
+
+        // if text is null or empty, show complete list
+        if (string.IsNullOrEmpty(value))
+            return states;
+        return states.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+    }
+
+    private async Task<IEnumerable<string>> Search2(string value, CancellationToken token)
+    {
+        // In real life use an asynchronous function for fetching data from an api.
+        await Task.Delay(5, token);
+
+        // if text is null or empty, don't return values (drop-down will not open)
+        if (string.IsNullOrEmpty(value))
+            return new string[0];
+        return states.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+    }
+    private DateTime? _date = DateTime.Today;
+
+    public bool Basic_CheckBox1 { get; set; } = true;
+    public bool Basic_CheckBox2 { get; set; } = false;
+    public bool Basic_CheckBox3 { get; set; } = false;
+    public bool Basic_CheckBox4 { get; set; } = true;
+
+
+
+  
+
+    private WeatherForecast[]? forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Simulate asynchronous loading to demonstrate streaming rendering
+        await Task.Delay(500);
+
+        var startDate = DateOnly.FromDateTime(DateTime.Now);
+        var summaries = new[] { "", "", "", "", "", "", "", "", "", "" };
+        forecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        {
+            Date = startDate.AddDays(index),
+            TemperatureC = Random.Shared.Next(-20, 55),
+            Summary = summaries[Random.Shared.Next(summaries.Length)]
+        }).ToArray();
+    }
+
+    private class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+        public int TemperatureC { get; set; }
+        public string? Summary { get; set; }
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+
+}
