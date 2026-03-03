@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Fb20qaMJ0t0=",
+  "dgSpecHash": "7ubg2nqmxAc=",
   "success": true,
   "projectFilePath": "D:\\FaainexTask\\FaainexTask\\FaainexTask.Client\\FaainexTask.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MG\\.nuget\\packages\\blazored.texteditor\\1.1.3\\blazored.texteditor.1.1.3.nupkg.sha512",
     "C:\\Users\\MG\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.3\\microsoft.aspnetcore.app.internal.assets.10.0.3.nupkg.sha512",
     "C:\\Users\\MG\\.nuget\\packages\\microsoft.aspnetcore.authorization\\10.0.3\\microsoft.aspnetcore.authorization.10.0.3.nupkg.sha512",
     "C:\\Users\\MG\\.nuget\\packages\\microsoft.aspnetcore.components\\10.0.3\\microsoft.aspnetcore.components.10.0.3.nupkg.sha512",

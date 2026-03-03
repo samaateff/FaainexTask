@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazored.TextEditor" Version="1.1.3" />
     <PackageReference Include="MudBlazor" Version="9.0.0" />
     <ProjectReference Include="..\FaainexTask.Client\FaainexTask.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.3" />

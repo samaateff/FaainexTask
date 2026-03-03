@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "FaainexTask.Client",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-LUTpD1pmMxOHc0ccSCkzIAb69oztm/LIRqYV1HwDkNQ=",
+    "hash": "sha256-1bcNkiPIkrT3EyZoLj6SNyFC5HDWoXaRBr11xb4N/HU=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.69poregybn.js"
@@ -58,6 +58,12 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       }
     ],
     "assembly": [
+      {
+        "virtualPath": "Blazored.TextEditor.wasm",
+        "name": "Blazored.TextEditor.v7x74x7hj9.wasm",
+        "integrity": "sha256-FQSSXKfMMhCqKfcpvOL9RYU8TGriudjjMczHFj1up/0=",
+        "cache": "force-cache"
+      },
       {
         "virtualPath": "Microsoft.AspNetCore.Authorization.wasm",
         "name": "Microsoft.AspNetCore.Authorization.3ur142rhlk.wasm",
@@ -1260,16 +1266,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "FaainexTask.Client.wasm",
-        "name": "FaainexTask.Client.ca1rv6k69l.wasm",
-        "integrity": "sha256-vKkyC/htIN/P5ZAc+mUwHbcecUT0XEK/3a5MsTR1+60=",
+        "name": "FaainexTask.Client.v6fj6a6nve.wasm",
+        "integrity": "sha256-pyHbk/ydrLsRuZ4a+b4A7z8ZGtQxhml42FyFnqvT3mk=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "FaainexTask.Client.pdb",
-        "name": "FaainexTask.Client.qxt2p8016e.pdb",
-        "integrity": "sha256-8uL7+WQp+W3a5LuKTzbqRuiyJgW1rc68xzilVnMdEGs=",
+        "name": "FaainexTask.Client.iwxb4fls67.pdb",
+        "integrity": "sha256-ng/E873TtuuxwPpzmF6lPQR0MRpeBn+w/xliB3N+Tu8=",
         "cache": "force-cache"
       }
     ],

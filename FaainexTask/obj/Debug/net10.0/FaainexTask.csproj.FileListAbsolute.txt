@@ -113,3 +113,6 @@ D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\FaainexTask.genruntimec
 D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\ref\FaainexTask.dll
 D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\compressed\6kgse98y2a-{0}-q6vucnctue-q6vucnctue.gz
 D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\FaainexTask.sourcelink.json
+D:\FaainexTask\FaainexTask\FaainexTask\bin\Debug\net10.0\Blazored.TextEditor.dll
+D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\compressed\vy897fugvk-{0}-dj4raj0v6v-dj4raj0v6v.gz
+D:\FaainexTask\FaainexTask\FaainexTask\obj\Debug\net10.0\compressed\6b8qd2c12s-{0}-06wjpxauos-06wjpxauos.gz
