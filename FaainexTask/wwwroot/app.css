@@ -76,7 +76,68 @@ h1:focus {
 .mud-input-label-filled {
     transform: translate(-12px, 20px) scale(1) !important;
 }
-.mud-input>input.mud-input-root-outlined, .mud-input>input.mud-input-root-filled {
+.mud-input > input.mud-input-root-outlined, .mud-input > input.mud-input-root-filled {
     text-align: center;
     padding: 15.5px 14px !important;
+}
+.ql-container {
+    height: 75% !important;
+}
+.mud-card-actions.mud-card-actions-padding.w-30 {
+    width:98%;
+   
+    margin-bottom: 2rem;
+    /*    background-color: rgb(204 198 255);*/
+    background-color: #eef5f7;
+    margin:auto
+}
+.mud-card-actions.mud-card-actions-padding.w-30 .mud-button{
+    width:10% !important;
+}
+   
+    .mud-button {
+        padding: 12px 16px !important;
+    }
+
+    .lastSection {
+        margin-top: 1rem;
+        /*    background-color: rgb(204 198 255);*/
+    }
+
+    .mud-card-content.mud-card-content-padding {
+        padding-bottom: 0 !important
+    }
+
+    .lastSection .mud-input > input.mud-input-root-outlined {
+        padding: 8.5px 14px !important;
+    }
+
+    .lastSection .mud-grid-spacing-xs-6 {
+        margin-top: 0 !important;
+    }
+
+        .lastSection .mud-grid-spacing-xs-6 > .mud-grid-item {
+            padding-top: 0 !important;
+            padding-bottom: 5px !important
+        }
+
+    .lastSection .table {
+        height: 20%;
+        text-align: center;
+    }
+
+    .ql-editor {
+        text-align: right !important;
+    }
+
+    .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+        right: unset !important;
+        left: 0 !important
+    }
+.lastSection {
+    background-color: #eef5f7;
+    padding:1rem
+}
+.mud-card-actions .mud-select {
+    flex-grow: unset !important;
 }

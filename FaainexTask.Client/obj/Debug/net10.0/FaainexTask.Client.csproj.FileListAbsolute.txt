@@ -1,5 +1,6 @@
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\FaainexTask.Client.runtimeconfig.json
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.js
+D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\Blazored.TextEditor.v7x74x7hj9.wasm
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.3ur142rhlk.wasm
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.ld1j2d23tn.wasm
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.jnskqyrki7.wasm
@@ -210,8 +211,11 @@ D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framewo
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
+D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\FaainexTask.Client.31bohp7mxw.wasm
+D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\FaainexTask.Client.pevv9wa99d.pdb
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.js
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.js.gz
+D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\Blazored.TextEditor.v7x74x7hj9.wasm.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.3ur142rhlk.wasm.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.ld1j2d23tn.wasm.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.jnskqyrki7.wasm.gz
@@ -422,11 +426,14 @@ D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framewo
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
+D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\FaainexTask.Client.31bohp7mxw.wasm.gz
+D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\FaainexTask.Client.pevv9wa99d.pdb.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.js.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\FaainexTask.Client.staticwebassets.runtime.json
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\FaainexTask.Client.staticwebassets.endpoints.json
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\FaainexTask.Client.dll
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\FaainexTask.Client.pdb
+D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\Blazored.TextEditor.dll
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\Microsoft.AspNetCore.Authorization.dll
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\Microsoft.AspNetCore.Components.dll
 D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -647,6 +654,8 @@ D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\FaainexTask.Clie
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\FaainexTask.Client.AssemblyInfo.cs
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\FaainexTask.Client.csproj.CoreCompileInputs.cache
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\FaainexTask.Client.MvcApplicationPartsAssemblyInfo.cache
+D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\FaainexTask.Client.sourcelink.json
+D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\webcil\Blazored.TextEditor.wasm
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\webcil\Microsoft.AspNetCore.Components.wasm
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -860,6 +869,7 @@ D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\dotnet.js
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\oxblxjoli9-{0}-tswichycbp-tswichycbp.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\6c3gf655qy-{0}-tswichycbp-tswichycbp.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\4zwg3becsr-{0}-66stpp682q-66stpp682q.gz
+D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\x68ms9gf7h-{0}-v7x74x7hj9-v7x74x7hj9.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\9denw8i32v-{0}-3ur142rhlk-3ur142rhlk.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\bd4d9a47nt-{0}-ld1j2d23tn-ld1j2d23tn.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\1stluhkb57-{0}-jnskqyrki7-jnskqyrki7.gz
@@ -1070,6 +1080,9 @@ D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\pyik8
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\oxwfulzr3p-{0}-tjcz0u77k5-tjcz0u77k5.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\hzie7odp2n-{0}-tptq2av103-tptq2av103.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\cfn3222k8y-{0}-lfu7j35m59-lfu7j35m59.gz
+D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\7muuz3nolt-{0}-31bohp7mxw-31bohp7mxw.gz
+D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\imqzscc0ta-{0}-pevv9wa99d-pevv9wa99d.gz
+D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\27wj435lfn-{0}-tasug38v5r-tasug38v5r.gz
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\staticwebassets.build.json
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\staticwebassets.build.json.cache
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\staticwebassets.development.json
@@ -1080,16 +1093,3 @@ D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\FaainexTask.Clie
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\refint\FaainexTask.Client.dll
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\FaainexTask.Client.pdb
 D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\ref\FaainexTask.Client.dll
-D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\FaainexTask.Client.sourcelink.json
-D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\Blazored.TextEditor.v7x74x7hj9.wasm
-D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\FaainexTask.Client.v6fj6a6nve.wasm
-D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\FaainexTask.Client.iwxb4fls67.pdb
-D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\Blazored.TextEditor.v7x74x7hj9.wasm.gz
-D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\FaainexTask.Client.v6fj6a6nve.wasm.gz
-D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\wwwroot\_framework\FaainexTask.Client.iwxb4fls67.pdb.gz
-D:\FaainexTask\FaainexTask\FaainexTask.Client\bin\Debug\net10.0\Blazored.TextEditor.dll
-D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\webcil\Blazored.TextEditor.wasm
-D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\x68ms9gf7h-{0}-v7x74x7hj9-v7x74x7hj9.gz
-D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\7muuz3nolt-{0}-v6fj6a6nve-v6fj6a6nve.gz
-D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\imqzscc0ta-{0}-iwxb4fls67-iwxb4fls67.gz
-D:\FaainexTask\FaainexTask\FaainexTask.Client\obj\Debug\net10.0\compressed\27wj435lfn-{0}-5ltyej3sog-5ltyej3sog.gz

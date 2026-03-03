@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FaainexTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b56e1dadbb9160f4a01fbecb808ceff975b1e745")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19c552c4213fec4c22fb832ef010389d6de4f82f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FaainexTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FaainexTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
